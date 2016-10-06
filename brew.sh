@@ -60,7 +60,7 @@ brew install homebrew/dupes/screen
 # New php
 brew tap homebrew/dupes
 brew tap homebrew/homebrew-php
-brew install php70
+brew install php70, args: ['with-debug', 'without-apache']
 
 # Install other useful binaries.
 brew install ack
