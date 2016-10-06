@@ -29,7 +29,9 @@ brew cask install --require-sha dash
 brew cask install --require-sha sourcetree
 brew cask install --require-sha sublime-text
 brew cask install --require-sha postman
-brew cask install imageoptim
+brew cask install --require-sha sequel-pro
+brew cask install --require-sha imageoptim
+brew cask install --require-sha transmit
 
 # Basic software
 brew cask install --require-sha vlc
@@ -38,7 +40,7 @@ brew cask install --require-sha flux
 brew cask install --require-sha the-unarchiver
 brew cask install --require-sha transmission
 brew cask install --require-sha spectacle
-brew cask install 1password
+brew cask install --require-sha 1password
 
 # cleanup unneeded files
 brew cleanup
