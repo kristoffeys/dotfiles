@@ -1,5 +1,17 @@
 #!/usr/bin/env bash
 
+# Install php tools
+
+# Install Composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
+# Install global Composer packages
+/usr/local/bin/composer global require laravel/valet
+
+# Install Laravel Valet
+$HOME/.composer/vendor/bin/valet install
+
 # Install command-line tools using Homebrew.
 
 # Check for Homebrew and install if we don't have it
