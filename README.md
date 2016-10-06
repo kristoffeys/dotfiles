@@ -51,13 +51,6 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/mathiasbynens/dotfiles/fork) instead, though.
 
-### Sensible macOS defaults
-
-When setting up a new Mac, you may want to set some sensible macOS defaults:
-
-```bash
-./.macos
-```
 
 ### Install Homebrew formulae
 
@@ -65,6 +58,23 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 
 ```bash
 ./brew.sh
+```
+
+### Install Software via cask
+
+For a new Mac, we also want to install some default software used:
+
+```bash
+./cask.sh
+```
+
+
+### Sensible macOS defaults
+
+When setting up a new Mac, you may want to set some sensible macOS defaults:
+
+```bash
+./.macos
 ```
 
 
