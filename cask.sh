@@ -42,6 +42,10 @@ brew cask install --require-sha transmission
 brew cask install --require-sha spectacle
 brew cask install --require-sha 1password
 
+# Fonts
+brew tap caskroom/fonts
+brew cask install --require-sha font-roboto-mono
+
 # cleanup unneeded files
 brew cleanup
 
