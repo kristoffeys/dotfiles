@@ -60,5 +60,8 @@
 	"material_theme_tabs_autowidth": true,
 	"overlay_scroll_bars": "enabled",
 	"theme": "Material-Theme.sublime-theme",
-	"word_wrap": true
+	"word_wrap": true,
+	"ui_font_size_small": true,
+	"font_face": "Roboto Mono",
+	"font_size": 12
 }
