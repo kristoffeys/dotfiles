@@ -77,6 +77,8 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 brew install dnsmasq
+brew install mackup
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
