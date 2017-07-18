@@ -68,6 +68,14 @@ For a new Mac, we also want to install some default software used:
 ./cask.sh
 ```
 
+### Install global Composer packages
+
+Install frequently used composer packages
+
+```bash
+./composer.sh
+```
+
 
 ### Sensible macOS defaults
 
