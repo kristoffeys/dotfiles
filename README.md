@@ -87,6 +87,7 @@ When setting up a new Mac, you may want to set some sensible macOS defaults:
 ```
 
 
+
 ## Thanks to…
 
 * [Mathias Bynens](https://mathiasbynens.be/)
